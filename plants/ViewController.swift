@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,8 @@ class ViewController: UIViewController {
         formatter.timeStyle = .short
         return formatter
     }()
+    
+    var managedContext: NSManagedObjectContext!
     
     var dates: [Date] = []
     

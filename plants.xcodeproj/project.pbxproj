@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD033BE250AF49A0054B497 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD033BD250AF49A0054B497 /* CoreDataStack.swift */; };
+		1BD033C42511435F0054B497 /* WaterLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BD033C22511435F0054B497 /* WaterLog.xcdatamodeld */; };
 		AB024537226D322400F9A263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB024536226D322400F9A263 /* AppDelegate.swift */; };
 		AB024539226D322400F9A263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB024538226D322400F9A263 /* ViewController.swift */; };
 		AB02453C226D322400F9A263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB02453A226D322400F9A263 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BD033BD250AF49A0054B497 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1BD033C32511435F0054B497 /* WaterLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterLog.xcdatamodel; sourceTree = "<group>"; };
 		AB024533226D322400F9A263 /* plants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB024536226D322400F9A263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB024538226D322400F9A263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		AB024535226D322400F9A263 /* plants */ = {
 			isa = PBXGroup;
 			children = (
+				1BD033BD250AF49A0054B497 /* CoreDataStack.swift */,
+				1BD033C22511435F0054B497 /* WaterLog.xcdatamodeld */,
 				AB024536226D322400F9A263 /* AppDelegate.swift */,
 				AB024538226D322400F9A263 /* ViewController.swift */,
 				AB02453A226D322400F9A263 /* Main.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD033BE250AF49A0054B497 /* CoreDataStack.swift in Sources */,
 				AB024539226D322400F9A263 /* ViewController.swift in Sources */,
+				1BD033C42511435F0054B497 /* WaterLog.xcdatamodeld in Sources */,
 				AB024537226D322400F9A263 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +344,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BD033C22511435F0054B497 /* WaterLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BD033C32511435F0054B497 /* WaterLog.xcdatamodel */,
+			);
+			currentVersion = 1BD033C32511435F0054B497 /* WaterLog.xcdatamodel */;
+			path = WaterLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AB02452B226D322400F9A263 /* Project object */;
 }
